@@ -37,28 +37,31 @@ namespace TestSpeed
             string ms = dt.ToString("s.fff");
            
             ms = ms.Remove(2, 1);
-            label3.Content = ms;
-            label2.Content = ms;
+            //label2.Content = ms;
             //label3.Content = Convert.ToInt32(ms);
             // double x = Convert.ToDouble(ms);
             //
 
             DateTime dt1 = DateTime.Now;
             string dt11 = dt1.ToString("s.fff");
-
             dt11 = ms.Remove(2, 1);
             double t1 = Convert.ToDouble(dt11) / 1000;
+
+            label2.Content = dt11;
+
+
             byte[] data = client.DownloadData(url);
 
 
             DateTime dt2 = DateTime.Now;
             string dt22 = dt2.ToString("s.fff");
+            dt22 = ms.Remove(2, 1);
+            double t2 = Convert.ToDouble(dt22) / 1000;
 
-            dt11 = ms.Remove(2, 1);
-            double t2 = Convert.ToDouble(dt11) / 1000;
+            label3.Content = dt22;
 
             label1.Content = ((data.Length * 8) / (t2 - t1)) / 1024 / 1024 + " Mbit/s";
-
+            label1.Background = new SolidColorBrush(Color.FromRgb(0, 135, 25));
         }
     }
 }
