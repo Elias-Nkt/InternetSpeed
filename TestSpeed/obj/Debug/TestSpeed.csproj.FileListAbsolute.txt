@@ -1,0 +1,14 @@
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\bin\Debug\TestSpeed.exe.config
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\bin\Debug\TestSpeed.exe
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\bin\Debug\TestSpeed.pdb
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\TestSpeed.csprojResolveAssemblyReference.cache
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\MainWindow.g.cs
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\App.g.cs
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\TestSpeed_MarkupCompile.cache
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\TestSpeed_MarkupCompile.lref
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\MainWindow.baml
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\TestSpeed.g.resources
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\TestSpeed.Properties.Resources.resources
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\TestSpeed.csproj.GenerateResource.Cache
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\TestSpeed.exe
+c:\users\илья\documents\visual studio 2017\Projects\TestSpeed\TestSpeed\obj\Debug\TestSpeed.pdb

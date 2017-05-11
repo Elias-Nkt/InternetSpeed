@@ -1,0 +1,19 @@
+﻿<Window x:Class="TestSpeed.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestSpeed"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="Button1" Content="Take a speed" HorizontalAlignment="Left" Margin="351,170,0,0" VerticalAlignment="Top" Width="156" Height="84" Background="#FF870000" Foreground="White" FontSize="24" FontWeight="Bold" Click="Button1_Click"/>
+        <Label x:Name="label1" Content="---" HorizontalAlignment="Left" Margin="10,259,0,0" VerticalAlignment="Top" Height="50" Width="497" Background="#FF870000" Foreground="White" FontSize="24"/>
+        <TextBox x:Name="Text1" HorizontalAlignment="Left" Height="58" Margin="10,107,0,0" TextWrapping="Wrap" Text="https://www.microsoft.com/ru-ru/" VerticalAlignment="Top" Width="497" Background="#FF870000" Foreground="White" FontSize="24" TextAlignment="Center"/>
+        <Label Content="Input URL:
+               " HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Height="38" Width="121" Background="White" Foreground="Black" FontSize="24"/>
+        <Label x:Name="label2" Content="ms" HorizontalAlignment="Left" Margin="10,204,0,0" VerticalAlignment="Top" Width="85" Height="50"/>
+        <Label x:Name="label3" Content="variable value for test" HorizontalAlignment="Left" Margin="114,204,0,0" VerticalAlignment="Top" Height="35" Width="117"/>
+
+    </Grid>
+</Window>
