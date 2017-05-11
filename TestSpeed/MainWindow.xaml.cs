@@ -35,19 +35,28 @@ namespace TestSpeed
             //to label2 for test
             DateTime dt = DateTime.Now;
             string ms = dt.ToString("s.fff");
-            label2.Content = ms;
+           
             ms = ms.Remove(2, 1);
             label3.Content = ms;
+            label2.Content = ms;
             //label3.Content = Convert.ToInt32(ms);
             // double x = Convert.ToDouble(ms);
             //
 
             DateTime dt1 = DateTime.Now;
-            double t1 = Convert.ToDouble(dt1.ToString("fff"));
+            string dt11 = dt1.ToString("s.fff");
+
+            dt11 = ms.Remove(2, 1);
+            double t1 = Convert.ToDouble(dt11) / 1000;
             byte[] data = client.DownloadData(url);
 
+
             DateTime dt2 = DateTime.Now;
-            double t2 = Convert.ToDouble(dt1.ToString("fff"));
+            string dt22 = dt2.ToString("s.fff");
+
+            dt11 = ms.Remove(2, 1);
+            double t2 = Convert.ToDouble(dt11) / 1000;
+
             label1.Content = ((data.Length * 8) / (t2 - t1)) / 1024 / 1024 + " Mbit/s";
 
         }
