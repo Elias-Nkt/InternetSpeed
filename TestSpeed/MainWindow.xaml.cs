@@ -36,7 +36,10 @@ namespace TestSpeed
             DateTime dt = DateTime.Now;
             string ms = dt.ToString("s.fff");
             label2.Content = ms;
-           // double x = Convert.ToDouble(ms);
+            ms = ms.Remove(2, 1);
+            label3.Content = ms;
+            //label3.Content = Convert.ToInt32(ms);
+            // double x = Convert.ToDouble(ms);
             //
 
             DateTime dt1 = DateTime.Now;
